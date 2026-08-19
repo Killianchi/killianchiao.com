@@ -94,12 +94,21 @@ Switzerland.
 - Google Play "Best Apps for Good" honourable mention (2022) — Zario
 - Product Hunt #1 Product of the Day — Zario
 
-## Projects
+## Projects & Roles
 
 - [Zario](https://meetzario.com): screen-time reduction app; EU-Startups
-  Summit 2023 pitch winner (€150,000 grand prize)
-- [Shichic](https://www.myshichic.com/)
-- [Studio Hue](https://vimeo.com/studiohue)
+  Summit 2023 pitch winner (€150,000 grand prize); exited 2025
+- [Studio Hue](https://vimeo.com/studiohue): video and animation agency
+- Advisor to [Fabric](https://onfabric.io/) — sign in to consumer AI with
+  your digital self — and [NEXT Events](https://nextevents.ch/),
+  Switzerland's largest networking and entrepreneurship community
+- Investor in [KITRO](https://kitro.ch/) (AI food-waste reduction for
+  kitchens), [FOURTWENTY](https://fourtwenty.ltd/) (premium cannabis
+  retail and venues, Thailand) and [Shichic](https://www.myshichic.com/)
+- For fun: [CASHaton](https://cashaton.com/) (48 hours to make real
+  money — no judges, no pitches) and
+  [InsiderPolls](https://insiderpolls.com/) (real-time public opinion
+  data from a nationwide mobile sampling network)
 
 ## Press
 

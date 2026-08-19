@@ -92,23 +92,50 @@ u { text-decoration: underline; }
 .nav-btn.active { color: #fff; }
 
 /* Hero image */
-.hero-image {
-    text-align: center;
+.hero {
     margin-top: 0 !important;
-    margin-bottom: 0 !important;
-}
-.hero-image .frame {
-    display: inline-block;
-    width: 51.375rem;
-    height: 47.5rem;
-    max-width: 100%;
     overflow: hidden;
 }
-.hero-image .frame img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+.hero-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', Helvetica, Arial, -apple-system, sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.75rem, 16.4vw, 23rem);
+    line-height: 1;
+    letter-spacing: -0.03em;
+    white-space: nowrap;
+    margin: 0;
+}
+.hero-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-portrait {
+    position: relative;
+    z-index: 2;
+    margin-top: -7vw;
+    text-align: center;
+}
+.hero-portrait img {
+    width: min(61vw, 56rem);
+    height: auto;
+}
+.hero-bio {
+    position: absolute;
+    z-index: 1;
+    left: max(1rem, 3.5vw);
+    top: 12%;
+    width: 16rem;
+    max-width: 25vw;
+    color: #9C9C9C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.55em;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
 }
 
 /* Quote text */
@@ -568,7 +595,18 @@ u { text-decoration: underline; }
 @media screen and (max-width: 736px) {
     html { font-size: 13pt; }
     .gallery .thumbnail .frame { height: 3.25rem; }
-    .hero-image .frame { width: 100%; height: auto; aspect-ratio: 2560/2370; }
+    .hero-portrait img { width: 76vw; }
+    .hero-portrait { margin-top: -8vw; }
+    .hero-bio {
+        position: static;
+        order: 2;
+        width: auto;
+        max-width: none;
+        margin: 1.5rem 1.5rem 0;
+        font-size: 0.8em;
+        text-align: center;
+        color: #BDBDBD;
+    }
     .about-image-childhood .frame { width: 12rem; }
     .about-image-uwc .frame { width: 100%; }
 }

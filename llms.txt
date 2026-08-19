@@ -41,6 +41,58 @@ Pitch Competition and its €150,000 grand prize. The app helps people build a
 healthier relationship with their phones by making screen-time reduction
 feel like a game rather than a punishment.
 
+## Career
+
+**Art Basel — Senior Product Manager, App (current).** Leads AI-powered
+mobile experiences including the Art Basel Companion and Lens, building
+personalised fair navigation and artwork discovery for collectors and
+primary-market galleries. Work spans AI-driven matching, recommendation
+engines and high-end consumer product design.
+
+**Zario — Co-Founder & CEO (2022–2025).** AI digital wellbeing product that
+reached close to one million users across its product suite, with around 20
+employees globally at peak and close to $1M raised. Exited to an app
+portfolio company in 2025. Product work was rooted in behaviour-change
+design drawing on CBT and ACT principles: retention systems and
+anti-cheating mechanics, social and group accountability loops, family
+challenge concepts, AI-assisted validation, and brand-funded rewards
+marketplace experiments.
+
+**MissionPossible.VC — Investor (2025–).** Early-stage investing with a
+founder-operator lens.
+
+**Studio Hue — Co-Founder.** Video and animation agency serving enterprise
+clients including Coca-Cola and IKEA.
+
+**WDHB Strategic Learning — Global Program Manager.** Designed executive
+learning experiences for C-suite leaders at Fortune 500 companies; converted
+a Swiss Life discovery insight on failure culture into a multi-year contract.
+
+**Earlier career.** Finance, sales and marketing, hospitality and operations
+roles at Hathor Investment Group, Philip Morris International, WWF, Borgo
+Egnazia, Base7booking, BARVIKHA HOTEL&SPA, and Barn & Familieteamet.
+
+## Expertise
+
+AI/ML product management, technical product management, UX design,
+stakeholder management, customer engagement, digital strategy and
+transformation, storytelling, marketing. Hands-on with Python, FastAPI,
+vector embeddings, MCP, AWS and Azure.
+
+## Education & Languages
+
+BS in International Business, EHL Hospitality Business School. Additional
+study through Stanford Online / Y Combinator and Wharton (Viral Marketing).
+Native or bilingual in English and Norwegian (Bokmål). Based in Zurich,
+Switzerland.
+
+## Awards
+
+- Forbes 30 Under 30, Switzerland
+- EU-Startups Summit 2023 — Pitch Competition winner (€150,000 grand prize)
+- Google Play "Best App for Good" (2022) — Zario
+- Product Hunt #1 Product of the Day — Zario
+
 ## Projects
 
 - [Zario](https://meetzario.com): screen-time reduction app; EU-Startups
@@ -49,6 +101,9 @@ feel like a game rather than a punishment.
 - [Studio Hue](https://vimeo.com/studiohue)
 
 ## Press
+
+Zario has been featured in Forbes, Entrepreneur, PC World, Macworld, The
+Indian Express and Product Hunt.
 
 - [Forbes 30 Under 30](https://www.forbes.at/artikel/killian-fjellbakk.html)
 - [GamesBeat — Habbo virtual currency](https://gamesbeat.com/habbo-issues-new-kind-of-currency-for-its-virtual-hotel/)

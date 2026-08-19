@@ -238,40 +238,25 @@ u { text-decoration: underline; }
 .clients-section .col-gallery {
     flex: 1;
     min-width: 0;
+    width: 100%;
+    overflow: hidden;
 }
 .clients-section .col-image {
     flex: 0 0 auto;
     padding-left: 1rem;
 }
 
-/* Gallery */
-.gallery {
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-.gallery ul {
-    display: flex;
-    gap: 0.75rem;
-    align-items: center;
-    padding: 0.5rem 0;
-}
-.gallery li {
-    flex: 0 0 auto;
-}
-.gallery .thumbnail .frame {
-    display: block;
-    height: 4.5rem;
-    overflow: hidden;
-}
-.gallery .thumbnail .frame img {
-    height: 100%;
-    width: auto;
-    object-fit: contain;
+/* Client logo marquee */
+.client-marquee { padding: 0.5rem 0; }
+.client-marquee .marquee-track { animation-duration: 60s; }
+.client-marquee .marquee-set { gap: 2.5rem; padding-right: 2.5rem; }
+.client-marquee .marquee-set img {
+    height: 3.25rem;
     filter: grayscale(100%) brightness(0.7);
     opacity: 0.6;
     transition: opacity 0.25s ease, filter 0.25s ease;
 }
-.gallery .thumbnail .frame img:hover {
+.client-marquee .marquee-set img:hover {
     filter: grayscale(0%) brightness(1);
     opacity: 1;
 }
@@ -578,13 +563,10 @@ u { text-decoration: underline; }
 @media screen and (max-width: 980px) {
     html { font-size: 15pt; }
     .content-container .cols { flex-direction: column; }
-    .clients-section .cols { flex-direction: column; align-items: center; }
+    .clients-section .cols { flex-direction: column; align-items: stretch; }
+    .clients-section .col-image { align-self: center; }
     .clients-section .col-image { padding-left: 0; }
     .clients-section .col-image .small-image { margin-top: 1rem !important; }
-    .gallery {
-        -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
-        mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
-    }
     .nav-header { padding: 0.75rem 0.5rem; }
     .nav-header .inner-nav { justify-content: center; gap: 0; }
     .nav-spacer { display: none; }
@@ -594,19 +576,10 @@ u { text-decoration: underline; }
 }
 @media screen and (max-width: 736px) {
     html { font-size: 13pt; }
-    .gallery .thumbnail .frame { height: 3.25rem; }
+    .client-marquee .marquee-set img { height: 2.5rem; }
     .hero-portrait img { width: 76vw; }
     .hero-portrait { margin-top: -8vw; }
-    .hero-bio {
-        position: static;
-        order: 2;
-        width: auto;
-        max-width: none;
-        margin: 1.5rem 1.5rem 0;
-        font-size: 0.8em;
-        text-align: center;
-        color: #BDBDBD;
-    }
+    .hero-bio { display: none; }
     .about-image-childhood .frame { width: 12rem; }
     .about-image-uwc .frame { width: 100%; }
 }

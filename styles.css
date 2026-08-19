@@ -177,11 +177,20 @@ em { font-style: italic; }
 .press-grid { display: grid; gap: 2rem; align-items: center; }
 .press-copy .sub { margin-top: .75rem; font-size: .875rem; line-height: 1.5rem; color: var(--stone-300); }
 .press-tiles { grid-template-columns: repeat(2, 1fr); border-radius: 1.5rem; }
-.press-tiles > div {
-    background: var(--bg); padding: 1.5rem 1rem; text-align: center;
-    font-family: var(--font-heading); font-weight: 600; font-size: 1.25rem;
-    letter-spacing: -.025em; color: var(--stone-200);
-    display: flex; align-items: center; justify-content: center;
+.press-tiles > div, .press-tiles > a {
+    background: var(--bg); padding: 1.5rem 1rem; min-height: 5.5rem;
+    display: flex; align-items: center; justify-content: center; gap: .5rem;
+    transition: background-color .3s;
+}
+.press-tiles > a:hover { background: rgba(255,255,255,0.06); }
+.press-tiles img {
+    height: 1.5rem; width: auto; max-width: 90%; object-fit: contain;
+    opacity: .8; transition: opacity .3s;
+}
+.press-tiles > a:hover img { opacity: 1; }
+.press-tiles .ph-word {
+    font-family: var(--font-heading); font-weight: 600; font-size: 1.1rem;
+    letter-spacing: -.025em; color: var(--stone-200); white-space: nowrap;
 }
 
 /* ---------- About (light section) ---------- */
@@ -228,10 +237,14 @@ em { font-style: italic; }
 .orgs .sub { margin-top: 1.5rem; max-width: 28rem; font-size: .875rem; line-height: 1.75rem; color: var(--stone-400); }
 .org-tiles { grid-template-columns: 1fr; border-radius: 2rem; }
 .org-tiles > div { background: var(--surface-03); padding: 2rem; transition: all .3s; }
-.org-tiles .name { font-family: var(--font-heading); font-weight: 600; font-size: 2.25rem; letter-spacing: -.06em; color: var(--head); transition: color .3s; }
+.org-tiles .logo { display: flex; align-items: center; min-height: 3rem; }
+.org-tiles .logo img {
+    height: 2.25rem; width: auto; max-width: 100%; object-fit: contain;
+    filter: grayscale(100%) brightness(1.05); opacity: .85; transition: filter .3s, opacity .3s;
+}
+.org-tiles > div:hover .logo img { filter: grayscale(100%) brightness(0); opacity: 1; }
 .org-tiles .caption { margin-top: 2rem; font-size: .875rem; color: var(--stone-500); transition: color .3s; }
 .org-tiles > div:hover { background: var(--amber-100); }
-.org-tiles > div:hover .name { color: #0a0a0a; }
 .org-tiles > div:hover .caption { color: var(--n600); }
 
 /* ---------- Career + Awards ---------- */

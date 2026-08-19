@@ -64,159 +64,232 @@
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?display=swap&family=Montserrat:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="site-wrapper">
-        <div class="site-main">
-            <div class="inner">
-                <section>
-                    <!-- Navigation -->
-                    <div class="nav-header">
-                        <div class="inner-nav">
-                            <div class="nav-left">
-                                <a href="index.html" class="nav-btn active">Home</a>
+    <!-- Nav -->
+    <nav class="site-nav">
+        <div class="nav-id">
+            <a href="index.html" class="monogram" aria-label="Killian Chiao — home">KC</a>
+            <span class="nav-wordmark">Killian Chiao</span>
+        </div>
+        <div class="nav-pills">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="career.html">Career</a>
+            <a href="awards.html">Awards</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="section hero">
+        <div class="glow" style="top:-4rem; left:50%; margin-left:-12rem; width:24rem; height:24rem; background:rgba(252,211,77,0.10);"></div>
+        <div class="glow" style="bottom:-4rem; right:-4rem; width:20rem; height:20rem; background:rgba(120,113,108,0.10);"></div>
+        <div class="inner">
+            <div class="hero-grid">
+                <div class="reveal-item">
+                    <span class="hero-badge"><span class="dot"></span>Product maker &middot; Forward deploy &middot; PM</span>
+                    <h1 class="hero-name">Killian<span class="line2">Chiao</span></h1>
+                    <div class="hero-quote">
+                        <p class="pull">&ldquo;creating product &amp; experiences of mind&rdquo;</p>
+                        <p class="lede">Time is ticking in one direction, focusing on experiences that can anchor time and place to create solid memories is what matters. Delaying instant gratification, learning from and enabling people and organisations to build products and experience to change minds is what counts and pays off long term.</p>
+                    </div>
+                    <div class="hero-ctas">
+                        <a href="#about" class="btn btn-primary">Read the thesis</a>
+                        <a href="career.html" class="btn btn-secondary">Explore career</a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-item">
+                    <div class="glow" style="left:-3rem; top:20%; width:12rem; height:12rem; background:rgba(253,230,138,0.10); filter:blur(40px);"></div>
+                    <div class="glow" style="right:-2rem; bottom:10%; width:10rem; height:16rem; background:rgba(255,255,255,0.10);"></div>
+                    <div class="hero-frame">
+                        <img src="assets/images/portrait.webp" alt="Portrait of Killian Chiao" width="1568" height="1767" fetchpriority="high" decoding="async" />
+                        <div class="hero-chip">
+                            <div>
+                                <p class="label">Current focus</p>
+                                <p class="value">Products that become memory systems.</p>
                             </div>
-                            <div class="nav-left">
-                                <a href="about.html" class="nav-btn">About</a>
-                            </div>
-                            <div class="nav-spacer"></div>
-                            <div class="nav-right">
-                                <a href="career.html" class="nav-btn">Career</a>
-                            </div>
-                            <div class="nav-right">
-                                <a href="awards.html" class="nav-btn">Awards</a>
-                            </div>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19L19 5M19 5H8M19 5V16"/></svg>
                         </div>
                     </div>
-
-                    <!-- Hero -->
-                    <div class="hero">
-                        <h1 class="hero-title">Killian&nbsp;Chiao</h1>
-                        <div class="hero-body">
-                            <div class="hero-portrait">
-                                <img src="assets/images/hero-portrait.webp" alt="Killian Chiao &mdash; &ldquo;creating product &amp; experiences of mind&rdquo;" width="1568" height="2103" fetchpriority="high" decoding="async" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Quote -->
-                    <p class="quote-text">Time is ticking in one direction, focusing on experiences that can anchor time and place to create solid memories is what matters. Delaying instant gratification, learning from and enabling people and organisations to build products and experience to change minds is what counts and pays off long term.</p>
-
-                    <!-- Featured on -->
-                    <div class="featured-on">
-                        <p class="featured-label">featured on:</p>
-                        <div class="logo-marquee">
-                            <div class="marquee-track">
-                            <div class="marquee-set">
-                                <img src="assets/images/logos/entrepreneur.png" alt="Entrepreneur" width="499" height="92" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/forbes.png" alt="Forbes" width="319" height="92" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/pcworld.png" alt="PCWorld" width="364" height="91" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/macworld.png" alt="Macworld" width="222" height="89" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/indianexpress.png" alt="The Indian Express" width="799" height="89" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/eustartups.png" alt="EU-Startups" width="301" height="90" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/techeu.png" alt="Tech.eu" width="121" height="90" loading="lazy" decoding="async" />
-                            </div>
-                            <div class="marquee-set" aria-hidden="true">
-                                <img src="assets/images/logos/entrepreneur.png" alt="" width="499" height="92" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/forbes.png" alt="" width="319" height="92" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/pcworld.png" alt="" width="364" height="91" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/macworld.png" alt="" width="222" height="89" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/indianexpress.png" alt="" width="799" height="89" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/eustartups.png" alt="" width="301" height="90" loading="lazy" decoding="async" />
-                                <img src="assets/images/logos/techeu.png" alt="" width="121" height="90" loading="lazy" decoding="async" />
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr class="divider-line">
-
-                    <!-- Clients heading -->
-                    <h2 class="section-heading">Working with the world's leading organizations</h2>
-
-                    <!-- Client logos + image -->
-                    <div class="clients-section">
-                        <div class="wrapper">
-                            <div class="cols">
-                                <div class="col-gallery">
-                                    <div class="logo-marquee client-marquee">
-                                        <div class="marquee-track">
-                                        <div class="marquee-set">
-                                            <img src="assets/images/gallery01/f4e6854a.png" alt="Coca Cola" title="Coca Cola" width="256" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/5c117a96.jpg" alt="Ikea" title="Ikea" width="234" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/eae52f6d.png" alt="KPMG" title="KPMG" width="220" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/65ff3bac.png" alt="T-Mobile" title="T-Mobile" width="403" height="74" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/afd6f955.png" alt="L'Oreal" title="L'Oreal" width="282" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/918f9e07.png" alt="Mercedes" title="Mercedes" width="444" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/aa4ec18b.png" alt="ICOS" title="ICOS" width="245" height="70" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/de0fde4f.png" alt="" width="84" height="92" loading="lazy" decoding="async" />
-                                        </div>
-                                        <div class="marquee-set" aria-hidden="true">
-                                            <img src="assets/images/gallery01/f4e6854a.png" alt="" width="256" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/5c117a96.jpg" alt="" width="234" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/eae52f6d.png" alt="" width="220" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/65ff3bac.png" alt="" width="403" height="74" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/afd6f955.png" alt="" width="282" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/918f9e07.png" alt="" width="444" height="84" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/aa4ec18b.png" alt="" width="245" height="70" loading="lazy" decoding="async" />
-                                            <img src="assets/images/gallery01/de0fde4f.png" alt="" width="84" height="92" loading="lazy" decoding="async" />
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-image">
-                                    <div class="small-image" style="text-align:center; margin-top:5.25rem;">
-                                        <span class="frame">
-                                            <img src="assets/images/image03.jpg" alt="" width="592" height="980" loading="lazy" decoding="async" />
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr class="divider-line">
-
-                    <!-- Footer navigation -->
-                    <div class="footer-nav">
-                        <div class="inner-footer">
-                            <div class="footer-col footer-col-left">
-                                <a href="about.html" class="footer-btn">About</a>
-                                <a href="career.html" class="footer-btn">Career</a>
-                                <a href="business.html" class="footer-btn">Business</a>
-                            </div>
-                            <div class="nav-spacer"></div>
-                            <div class="footer-col footer-col-center">
-                                <a href="awards.html" class="footer-btn">Press & awards</a>
-                                <a href="bucketlist.html" class="footer-btn">Bucket List</a>
-                                <a href="links.html" class="footer-btn">Links</a>
-                                <a href="#" class="footer-btn">Give Feedback</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Social Icons -->
-                    <div class="social-icons">
-                        <a href="https://www.instagram.com/killianchi/" title="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 40 40"><path d="M20,7c4.2,0,4.7,0,6.3,0.1c1.5,0.1,2.3,0.3,3,0.5C30,8,30.5,8.3,31.1,8.9c0.5,0.5,0.9,1.1,1.2,1.8c0.2,0.5,0.5,1.4,0.5,3C33,15.3,33,15.8,33,20s0,4.7-0.1,6.3c-0.1,1.5-0.3,2.3-0.5,3c-0.3,0.7-0.6,1.2-1.2,1.8c-0.5,0.5-1.1,0.9-1.8,1.2c-0.5,0.2-1.4,0.5-3,0.5C24.7,33,24.2,33,20,33s-4.7,0-6.3-0.1c-1.5-0.1-2.3-0.3-3-0.5C10,32,9.5,31.7,8.9,31.1C8.4,30.6,8,30,7.7,29.3c-0.2-0.5-0.5-1.4-0.5-3C7,24.7,7,24.2,7,20s0-4.7,0.1-6.3c0.1-1.5,0.3-2.3,0.5-3C8,10,8.3,9.5,8.9,8.9C9.4,8.4,10,8,10.7,7.7c0.5-0.2,1.4-0.5,3-0.5C15.3,7.1,15.8,7,20,7z M20,4.3c-4.3,0-4.8,0-6.5,0.1c-1.6,0-2.8,0.3-3.8,0.7C8.7,5.5,7.8,6,6.9,6.9C6,7.8,5.5,8.7,5.1,9.7c-0.4,1-0.6,2.1-0.7,3.8c-0.1,1.7-0.1,2.2-0.1,6.5s0,4.8,0.1,6.5c0,1.6,0.3,2.8,0.7,3.8c0.4,1,0.9,1.9,1.8,2.8c0.9,0.9,1.7,1.4,2.8,1.8c1,0.4,2.1,0.6,3.8,0.7c1.6,0.1,2.2,0.1,6.5,0.1s4.8,0,6.5-0.1c1.6-0.1,2.9-0.3,3.8-0.7c1-0.4,1.9-0.9,2.8-1.8c0.9-0.9,1.4-1.7,1.8-2.8c0.4-1,0.6-2.1,0.7-3.8c0.1-1.6,0.1-2.2,0.1-6.5s0-4.8-0.1-6.5c-0.1-1.6-0.3-2.9-0.7-3.8c-0.4-1-0.9-1.9-1.8-2.8c-0.9-0.9-1.7-1.4-2.8-1.8c-1-0.4-2.1-0.6-3.8-0.7C24.8,4.3,24.3,4.3,20,4.3L20,4.3L20,4.3z"/><path d="M20,11.9c-4.5,0-8.1,3.7-8.1,8.1s3.7,8.1,8.1,8.1s8.1-3.7,8.1-8.1S24.5,11.9,20,11.9z M20,25.2c-2.9,0-5.2-2.3-5.2-5.2s2.3-5.2,5.2-5.2s5.2,2.3,5.2,5.2S22.9,25.2,20,25.2z"/><path d="M30.6,11.6c0,1-0.8,1.9-1.9,1.9c-1,0-1.9-0.8-1.9-1.9s0.8-1.9,1.9-1.9C29.8,9.7,30.6,10.5,30.6,11.6z"/></svg></a>
-                        <a href="#" title="Email"><svg viewBox="0 0 40 40"><path d="M37.5,12.6l-17.5,11.9L2.5,12.6c-.2-.1-.3-.2-.5-.2v-2.7c0-.8.6-1.4,1.4-1.4h33.1c.8,0,1.4.6,1.4,1.4v2.7c-.2,0-.4,0-.5.2ZM19.5,26.3c.2.1.3.2.5.2s.4,0,.5-.2l17.5-11.9v16.9c0,.8-.6,1.4-1.4,1.4H3.4c-.8,0-1.4-.6-1.4-1.4V14.4l17.5,11.9Z"/></svg></a>
-                        <a href="https://www.linkedin.com/in/killianchi" title="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 40 40"><path d="M12.1,13.8v19.1H5.7V13.8C5.7,13.8,12.1,13.8,12.1,13.8z M12.5,7.9c0,0.9-0.3,1.7-1,2.4c-0.7,0.6-1.5,0.9-2.6,0.9h0c-1.1,0-1.9-0.3-2.5-0.9c-0.6-0.6-1-1.4-1-2.4c0-1,0.3-1.7,1-2.4S7.9,4.6,9,4.6s1.9,0.3,2.6,0.9S12.5,6.9,12.5,7.9z M35,22v11h-6.4V22.7c0-1.4-0.3-2.4-0.8-3.2c-0.5-0.8-1.3-1.1-2.4-1.1c-0.8,0-1.5,0.2-2,0.7c-0.5,0.4-1,1-1.2,1.7c-0.1,0.4-0.2,0.9-0.2,1.6v10.7h-6.4c0-5.1,0-9.3,0-12.5s0-5.1,0-5.7l0-0.9H22v2.8h0c0.3-0.4,0.5-0.8,0.8-1.1c0.3-0.3,0.6-0.6,1.1-1c0.5-0.4,1-0.6,1.7-0.8c0.7-0.2,1.4-0.3,2.2-0.3c2.2,0,4,0.7,5.3,2.2C34.4,17,35,19.1,35,22L35,22z"/></svg></a>
-                        <a href="https://github.com/Killianchi" title="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 40 40"><path d="M36,20.3c0,3.5-1,6.6-3.1,9.4c-2,2.8-4.7,4.7-7.9,5.8c-0.4,0.1-0.6,0-0.8-0.1c-0.2-0.2-0.3-0.4-0.3-0.6v-4.4c0-1.3-0.4-2.3-1.1-3c0.8-0.1,1.5-0.2,2.1-0.4c0.6-0.2,1.3-0.4,2-0.8c0.7-0.4,1.2-0.8,1.7-1.4c0.5-0.5,0.8-1.3,1.1-2.2s0.4-2,0.4-3.1c0-1.7-0.5-3.1-1.6-4.3c0.5-1.3,0.5-2.7-0.2-4.2c-0.4-0.1-1,0-1.7,0.2c-0.7,0.3-1.4,0.6-1.9,0.9L24,12.5c-1.3-0.4-2.6-0.5-4-0.5s-2.7,0.2-4,0.5c-0.2-0.2-0.5-0.3-0.9-0.6c-0.4-0.2-0.9-0.5-1.7-0.8c-0.8-0.3-1.4-0.4-1.8-0.3c-0.6,1.6-0.7,3-0.1,4.2c-1.1,1.2-1.6,2.6-1.6,4.3c0,1.2,0.1,2.2,0.4,3.1s0.6,1.6,1.1,2.2s1,1,1.7,1.4c0.7,0.4,1.3,0.6,2,0.8c0.6,0.2,1.3,0.3,2.1,0.4c-0.6,0.5-0.9,1.2-1,2.1c-0.3,0.1-0.6,0.2-0.9,0.3c-0.3,0.1-0.7,0.1-1.2,0.1c-0.5,0-0.9-0.1-1.4-0.4c-0.5-0.3-0.8-0.7-1.2-1.3c-0.3-0.4-0.6-0.8-1-1.1c-0.4-0.3-0.8-0.4-1-0.5L9,26.5c-0.3,0-0.5,0-0.6,0.1c-0.1,0.1-0.1,0.1-0.1,0.2c0,0.1,0.1,0.2,0.2,0.3c0.1,0.1,0.2,0.2,0.3,0.2l0.1,0.1c0.3,0.1,0.6,0.4,0.9,0.8s0.5,0.7,0.7,1.1l0.2,0.5c0.2,0.5,0.5,1,0.9,1.3c0.4,0.3,0.9,0.5,1.4,0.6c0.5,0.1,1,0.1,1.4,0.1c0.5,0,0.9,0,1.2-0.1l0.5-0.1c0,0.5,0,1.1,0,1.9c0,0.7,0,1.1,0,1.1c0,0.2-0.1,0.5-0.3,0.6c-0.2,0.2-0.5,0.2-0.8,0.1c-3.2-1.1-5.8-3-7.9-5.8S4,23.8,4,20.3c0-2.9,0.7-5.6,2.1-8S9.5,7.8,12,6.4s5.1-2.1,8-2.1s5.6,0.7,8,2.1s4.4,3.4,5.8,5.8S36,17.4,36,20.3L36,20.3z"/></svg></a>
-                        <a href="https://huggingface.co/Killianchi" title="Hugging Face" target="_blank" rel="noopener"><svg viewBox="0 0 40 40"><path d="M39.4,29.5c0.1,0.4,0.2,1.3-0.4,2.1c0.4,0.7,0.5,1.5,0.2,2.2c-0.5,1-1.6,1.8-3.8,2.7c-1.4,0.5-2.6,0.9-2.6,0.9c-1.6,0.4-3.2,0.7-4.8,0.7c-2.3,0-4.1-0.7-5.2-1.9c-0.9,0.2-1.9,0.3-2.9,0.3c-0.9,0-1.8-0.1-2.7-0.2c-1.1,1.3-2.8,1.9-5.2,1.9c-1.6,0-3.3-0.3-4.8-0.7c0,0-1.3-0.4-2.6-0.9c-2.2-0.9-3.3-1.7-3.8-2.7c-0.3-0.7-0.3-1.6,0.2-2.2c-0.6-0.9-0.5-1.7-0.4-2.1C0.7,29,1,28.5,1.4,28.2c-0.6-1-0.5-2.3,0.4-3.1c0.4-0.5,1.1-0.7,1.7-0.7c0,0,0,0,0,0C3,22.7,2.7,21,2.7,19.2c0-9.6,7.7-17.3,17.2-17.3c9.5,0,17.2,7.7,17.2,17.3c0,1.8-0.3,3.5-0.8,5.2c0.1,0,0.2,0,0.2,0c0.7,0,1.3,0.3,1.7,0.7c0.8,0.8,0.9,2.1,0.4,3.1C39,28.5,39.3,29,39.4,29.5z M19.9,3.6c-8.5,0-15.4,6.9-15.4,15.5c0,1.3,0.1,2.5,0.4,3.6c0.4-0.5,1.1-0.8,1.8-0.8c0.6,0,1.2,0.2,1.8,0.6c0.4,0.3,0.8,0.7,1.3,1.3c0.5-0.7,1.2-1.1,2-1.1c1.5,0,2.4,1.3,2.8,2.5c0.2,0.4,1,2.2,2.2,3.5c1.9,1.9,2.3,3.8,1.4,5.9c0.6,0.1,1.1,0.1,1.7,0.1c0.6,0,1.3,0,1.9-0.1c-0.9-2.1-0.4-4,1.4-5.9c1.2-1.2,2.1-3.1,2.2-3.5c0.3-1.2,1.3-2.5,2.8-2.5c0.8,0,1.6,0.4,2,1.1c0.4-0.6,0.9-1,1.3-1.3c0.5-0.4,1.1-0.6,1.8-0.6c0.6,0,1.2,0.2,1.6,0.7c0.2-1.1,0.4-2.3,0.4-3.4C35.3,10.6,28.4,3.6,19.9,3.6z M26.3,16c-0.6,0.3-0.8-0.9-1.4-1.1c-0.5-0.2-1.4,0.7-1.6,0.1c-0.6-1.1-0.2-2.4,0.9-3c1.1-0.6,2.4-0.2,3,0.9C27.7,14.1,27.3,15.4,26.3,16z M25.5,19.7c0,2-1.4,5.9-5.8,5.9c-4.4,0-5.8-3.9-5.8-5.9c0-2,2.6,1.1,5.8,1.1c1.5,0,2.9-0.7,3.9-1.2C24.8,19,25.5,18.7,25.5,19.7z M16.1,15.1c-0.3,0.5-1.1-0.3-1.6-0.1c-0.6,0.2-0.8,1.4-1.4,1.1c-1.1-0.6-1.5-1.9-0.9-3c0.6-1.1,1.9-1.5,3-0.9C16.3,12.6,16.7,14,16.1,15.1z"/></svg></a>
-                    </div>
-
-                    <!-- Secret button (disabled for now)
-                    <div class="secret-btn">
-                        <a href="#">Secret game - don't click this red button &#x1F534;</a>
-                    </div>
-                    -->
-
-                    <!-- Copyright -->
-                    <p class="copyright">2026 &copy; all rights reserved by Killian Chiao</p>
-                </section>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+
+    <!-- Press strip -->
+    <section class="section press">
+        <div class="inner press-grid">
+            <div class="press-copy reveal-item">
+                <p class="eyebrow">Featured on</p>
+                <p class="sub">Selected press recognition across business, technology and product culture.</p>
+            </div>
+            <div class="hairline-grid press-tiles reveal-item">
+                    <div>Entrepreneur</div>
+                    <div>Forbes</div>
+                    <div>PCWorld</div>
+                    <div>Macworld</div>
+                    <div>The Indian Express</div>
+                    <div>EU-Startups</div>
+                    <div>Tech.eu</div>
+                    <div>Product Hunt</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / thesis -->
+    <section class="section about" id="about">
+        <div class="about-wash"></div>
+        <div class="inner about-grid">
+            <div class="reveal-item">
+                <p class="eyebrow">About</p>
+                <h2>Products are remembered when they change behavior.</h2>
+            </div>
+            <div class="about-cards">
+                <div class="card reveal-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M8 12.5L11 15.5L16 9.5"/></svg>
+                    <h3>Create with consequence</h3>
+                    <p>The work begins with the durable human outcome: what people will remember, repeat and trust after the first interaction fades.</p>
+                </div>
+                <div class="card card-dark card-offset reveal-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12H21M12 3C14.5 5.5 15.8 8.6 15.8 12C15.8 15.4 14.5 18.5 12 21C9.5 18.5 8.2 15.4 8.2 12C8.2 8.6 9.5 5.5 12 3Z"/></svg>
+                    <h3>Deploy close to reality</h3>
+                    <p>Forward-deployed thinking keeps strategy, product and users in the same room long enough for signal to replace assumptions.</p>
+                </div>
+                <div class="card card-span2 card-wide reveal-item">
+                    <div class="card-wide-grid">
+                        <div>
+                            <h3>Build experiences that anchor time and place.</h3>
+                            <p>A disciplined mix of product judgment, operational speed and narrative clarity turns abstract ideas into experiences that organizations can adopt.</p>
+                        </div>
+                        <div class="inset-panel">
+                            <p class="label">Operating mode</p>
+                            <p class="value">Learn fast. Ship carefully. Compound trust.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organizations -->
+    <section class="section orgs">
+        <div class="inner orgs-grid">
+            <div class="reveal-item">
+                <p class="eyebrow">Organizations</p>
+                <h2>Working with the world&rsquo;s leading organizations.</h2>
+                <p class="sub">From consumer icons to enterprise groups, the work is shaped around the same question: what would make this product matter after launch day?</p>
+            </div>
+            <div class="hairline-grid org-tiles reveal-item">
+                    <div>
+                        <h3 class="name">Coca-Cola</h3>
+                        <p class="caption">Consumer memory at global scale</p>
+                    </div>
+                    <div>
+                        <h3 class="name">IKEA</h3>
+                        <p class="caption">Retail systems and everyday behavior</p>
+                    </div>
+                    <div>
+                        <h3 class="name">KPMG</h3>
+                        <p class="caption">Enterprise trust and adoption</p>
+                    </div>
+                    <div>
+                        <h3 class="name">T-Mobile</h3>
+                        <p class="caption">Digital products for moving markets</p>
+                    </div>
+                    <div>
+                        <h3 class="name">L'Oréal</h3>
+                        <p class="caption">Brand experience at the speed of culture</p>
+                    </div>
+                    <div>
+                        <h3 class="name">Mercedes</h3>
+                        <p class="caption">Precision products with a lasting story</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career + Awards -->
+    <section class="section career" id="career">
+        <div class="glow" style="top:-3rem; right:-3rem; width:18rem; height:18rem; background:rgba(253,230,138,0.10);"></div>
+        <div class="inner career-grid">
+            <div class="career-card reveal-item">
+                <img src="assets/images/image04.jpg" alt="Killian Chiao at work" width="1335" height="1780" loading="lazy" decoding="async" />
+                <div class="career-card-copy">
+                    <p class="eyebrow">Career</p>
+                    <div>
+                        <h2>Product judgment, narrative discipline, field execution.</h2>
+                        <p class="sub">A career built at the intersection of product making, business development, and experience design &mdash; translating ambiguity into decisions people can act on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="awards-card reveal-item" id="awards">
+                <div>
+                    <p class="eyebrow">Awards</p>
+                    <h3>Press, awards and proof of work.</h3>
+                    <p class="sub">Recognition matters most when it points back to useful work. Explore public mentions, career notes and projects that shaped the operating philosophy.</p>
+                </div>
+                <div class="awards-links">
+                    <a href="awards.html" class="link-row primary">Press &amp; awards <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12H19M19 12L13 6M19 12L13 18"/></svg></a>
+                    <a href="bucketlist.html" class="link-row ghost">Bucket List <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12H19M19 12L13 6M19 12L13 18"/></svg></a>
+                    <a href="#" class="link-row ghost">Give Feedback <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12H19M19 12L13 6M19 12L13 18"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-id">
+                <div class="nav-id">
+                    <a href="index.html" class="monogram" aria-label="Killian Chiao — home">KC</a>
+                    <span style="font-size:.875rem; font-weight:500;">Killian Chiao</span>
+                </div>
+                <p>Creating product and experiences of mind for organizations, markets and people who value long-term memory over instant noise.</p>
+            </div>
+            <div class="footer-col">
+                <p class="head">Explore</p>
+                <nav>
+                    <a href="about.html">About</a>
+                    <a href="career.html">Career</a>
+                    <a href="business.html">Business</a>
+                </nav>
+            </div>
+            <div class="footer-col">
+                <p class="head">More</p>
+                <nav>
+                    <a href="awards.html">Press &amp; awards</a>
+                    <a href="bucketlist.html">Bucket List</a>
+                    <a href="links.html">Links</a>
+                    <a href="#">Give Feedback</a>
+                </nav>
+                <div class="footer-social">
+                        <a href="https://www.instagram.com/killianchi/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20,7c4.2,0,4.7,0,6.3,0.1c1.5,0.1,2.3,0.3,3,0.5C30,8,30.5,8.3,31.1,8.9c0.5,0.5,0.9,1.1,1.2,1.8c0.2,0.5,0.5,1.4,0.5,3C33,15.3,33,15.8,33,20s0,4.7-0.1,6.3c-0.1,1.5-0.3,2.3-0.5,3c-0.3,0.7-0.6,1.2-1.2,1.8c-0.5,0.5-1.1,0.9-1.8,1.2c-0.5,0.2-1.4,0.5-3,0.5C24.7,33,24.2,33,20,33s-4.7,0-6.3-0.1c-1.5-0.1-2.3-0.3-3-0.5C10,32,9.5,31.7,8.9,31.1C8.4,30.6,8,30,7.7,29.3c-0.2-0.5-0.5-1.4-0.5-3C7,24.7,7,24.2,7,20s0-4.7,0.1-6.3c0.1-1.5,0.3-2.3,0.5-3C8,10,8.3,9.5,8.9,8.9C9.4,8.4,10,8,10.7,7.7c0.5-0.2,1.4-0.5,3-0.5C15.3,7.1,15.8,7,20,7z M20,4.3c-4.3,0-4.8,0-6.5,0.1c-1.6,0-2.8,0.3-3.8,0.7C8.7,5.5,7.8,6,6.9,6.9C6,7.8,5.5,8.7,5.1,9.7c-0.4,1-0.6,2.1-0.7,3.8c-0.1,1.7-0.1,2.2-0.1,6.5s0,4.8,0.1,6.5c0,1.6,0.3,2.8,0.7,3.8c0.4,1,0.9,1.9,1.8,2.8c0.9,0.9,1.7,1.4,2.8,1.8c1,0.4,2.1,0.6,3.8,0.7c1.6,0.1,2.2,0.1,6.5,0.1s4.8,0,6.5-0.1c1.6-0.1,2.9-0.3,3.8-0.7c1-0.4,1.9-0.9,2.8-1.8c0.9-0.9,1.4-1.7,1.8-2.8c0.4-1,0.6-2.1,0.7-3.8c0.1-1.6,0.1-2.2,0.1-6.5s0-4.8-0.1-6.5c-0.1-1.6-0.3-2.9-0.7-3.8c-0.4-1-0.9-1.9-1.8-2.8c-0.9-0.9-1.7-1.4-2.8-1.8c-1-0.4-2.1-0.6-3.8-0.7C24.8,4.3,24.3,4.3,20,4.3L20,4.3L20,4.3z"/><path d="M20,11.9c-4.5,0-8.1,3.7-8.1,8.1s3.7,8.1,8.1,8.1s8.1-3.7,8.1-8.1S24.5,11.9,20,11.9z M20,25.2c-2.9,0-5.2-2.3-5.2-5.2s2.3-5.2,5.2-5.2s5.2,2.3,5.2,5.2S22.9,25.2,20,25.2z"/><path d="M30.6,11.6c0,1-0.8,1.9-1.9,1.9c-1,0-1.9-0.8-1.9-1.9s0.8-1.9,1.9-1.9C29.8,9.7,30.6,10.5,30.6,11.6z"/></svg></a>
+                        <a href="#" aria-label="Email"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M37.5,12.6l-17.5,11.9L2.5,12.6c-.2-.1-.3-.2-.5-.2v-2.7c0-.8.6-1.4,1.4-1.4h33.1c.8,0,1.4.6,1.4,1.4v2.7c-.2,0-.4,0-.5.2ZM19.5,26.3c.2.1.3.2.5.2s.4,0,.5-.2l17.5-11.9v16.9c0,.8-.6,1.4-1.4,1.4H3.4c-.8,0-1.4-.6-1.4-1.4V14.4l17.5,11.9Z"/></svg></a>
+                        <a href="https://www.linkedin.com/in/killianchi" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M12.1,13.8v19.1H5.7V13.8C5.7,13.8,12.1,13.8,12.1,13.8z M12.5,7.9c0,0.9-0.3,1.7-1,2.4c-0.7,0.6-1.5,0.9-2.6,0.9h0c-1.1,0-1.9-0.3-2.5-0.9c-0.6-0.6-1-1.4-1-2.4c0-1,0.3-1.7,1-2.4S7.9,4.6,9,4.6s1.9,0.3,2.6,0.9S12.5,6.9,12.5,7.9z M35,22v11h-6.4V22.7c0-1.4-0.3-2.4-0.8-3.2c-0.5-0.8-1.3-1.1-2.4-1.1c-0.8,0-1.5,0.2-2,0.7c-0.5,0.4-1,1-1.2,1.7c-0.1,0.4-0.2,0.9-0.2,1.6v10.7h-6.4c0-5.1,0-9.3,0-12.5s0-5.1,0-5.7l0-0.9H22v2.8h0c0.3-0.4,0.5-0.8,0.8-1.1c0.3-0.3,0.6-0.6,1.1-1c0.5-0.4,1-0.6,1.7-0.8c0.7-0.2,1.4-0.3,2.2-0.3c2.2,0,4,0.7,5.3,2.2C34.4,17,35,19.1,35,22L35,22z"/></svg></a>
+                        <a href="https://github.com/Killianchi" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M36,20.3c0,3.5-1,6.6-3.1,9.4c-2,2.8-4.7,4.7-7.9,5.8c-0.4,0.1-0.6,0-0.8-0.1c-0.2-0.2-0.3-0.4-0.3-0.6v-4.4c0-1.3-0.4-2.3-1.1-3c0.8-0.1,1.5-0.2,2.1-0.4c0.6-0.2,1.3-0.4,2-0.8c0.7-0.4,1.2-0.8,1.7-1.4c0.5-0.5,0.8-1.3,1.1-2.2s0.4-2,0.4-3.1c0-1.7-0.5-3.1-1.6-4.3c0.5-1.3,0.5-2.7-0.2-4.2c-0.4-0.1-1,0-1.7,0.2c-0.7,0.3-1.4,0.6-1.9,0.9L24,12.5c-1.3-0.4-2.6-0.5-4-0.5s-2.7,0.2-4,0.5c-0.2-0.2-0.5-0.3-0.9-0.6c-0.4-0.2-0.9-0.5-1.7-0.8c-0.8-0.3-1.4-0.4-1.8-0.3c-0.6,1.6-0.7,3-0.1,4.2c-1.1,1.2-1.6,2.6-1.6,4.3c0,1.2,0.1,2.2,0.4,3.1s0.6,1.6,1.1,2.2s1,1,1.7,1.4c0.7,0.4,1.3,0.6,2,0.8c0.6,0.2,1.3,0.3,2.1,0.4c-0.6,0.5-0.9,1.2-1,2.1c-0.3,0.1-0.6,0.2-0.9,0.3c-0.3,0.1-0.7,0.1-1.2,0.1c-0.5,0-0.9-0.1-1.4-0.4c-0.5-0.3-0.8-0.7-1.2-1.3c-0.3-0.4-0.6-0.8-1-1.1c-0.4-0.3-0.8-0.4-1-0.5L9,26.5c-0.3,0-0.5,0-0.6,0.1c-0.1,0.1-0.1,0.1-0.1,0.2c0,0.1,0.1,0.2,0.2,0.3c0.1,0.1,0.2,0.2,0.3,0.2l0.1,0.1c0.3,0.1,0.6,0.4,0.9,0.8s0.5,0.7,0.7,1.1l0.2,0.5c0.2,0.5,0.5,1,0.9,1.3c0.4,0.3,0.9,0.5,1.4,0.6c0.5,0.1,1,0.1,1.4,0.1c0.5,0,0.9,0,1.2-0.1l0.5-0.1c0,0.5,0,1.1,0,1.9c0,0.7,0,1.1,0,1.1c0,0.2-0.1,0.5-0.3,0.6c-0.2,0.2-0.5,0.2-0.8,0.1c-3.2-1.1-5.8-3-7.9-5.8S4,23.8,4,20.3c0-2.9,0.7-5.6,2.1-8S9.5,7.8,12,6.4s5.1-2.1,8-2.1s5.6,0.7,8,2.1s4.4,3.4,5.8,5.8S36,17.4,36,20.3L36,20.3z"/></svg></a>
+                        <a href="https://huggingface.co/Killianchi" aria-label="Hugging Face" target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M39.4,29.5c0.1,0.4,0.2,1.3-0.4,2.1c0.4,0.7,0.5,1.5,0.2,2.2c-0.5,1-1.6,1.8-3.8,2.7c-1.4,0.5-2.6,0.9-2.6,0.9c-1.6,0.4-3.2,0.7-4.8,0.7c-2.3,0-4.1-0.7-5.2-1.9c-0.9,0.2-1.9,0.3-2.9,0.3c-0.9,0-1.8-0.1-2.7-0.2c-1.1,1.3-2.8,1.9-5.2,1.9c-1.6,0-3.3-0.3-4.8-0.7c0,0-1.3-0.4-2.6-0.9c-2.2-0.9-3.3-1.7-3.8-2.7c-0.3-0.7-0.3-1.6,0.2-2.2c-0.6-0.9-0.5-1.7-0.4-2.1C0.7,29,1,28.5,1.4,28.2c-0.6-1-0.5-2.3,0.4-3.1c0.4-0.5,1.1-0.7,1.7-0.7c0,0,0,0,0,0C3,22.7,2.7,21,2.7,19.2c0-9.6,7.7-17.3,17.2-17.3c9.5,0,17.2,7.7,17.2,17.3c0,1.8-0.3,3.5-0.8,5.2c0.1,0,0.2,0,0.2,0c0.7,0,1.3,0.3,1.7,0.7c0.8,0.8,0.9,2.1,0.4,3.1C39,28.5,39.3,29,39.4,29.5z M19.9,3.6c-8.5,0-15.4,6.9-15.4,15.5c0,1.3,0.1,2.5,0.4,3.6c0.4-0.5,1.1-0.8,1.8-0.8c0.6,0,1.2,0.2,1.8,0.6c0.4,0.3,0.8,0.7,1.3,1.3c0.5-0.7,1.2-1.1,2-1.1c1.5,0,2.4,1.3,2.8,2.5c0.2,0.4,1,2.2,2.2,3.5c1.9,1.9,2.3,3.8,1.4,5.9c0.6,0.1,1.1,0.1,1.7,0.1c0.6,0,1.3,0,1.9-0.1c-0.9-2.1-0.4-4,1.4-5.9c1.2-1.2,2.1-3.1,2.2-3.5c0.3-1.2,1.3-2.5,2.8-2.5c0.8,0,1.6,0.4,2,1.1c0.4-0.6,0.9-1,1.3-1.3c0.5-0.4,1.1-0.6,1.8-0.6c0.6,0,1.2,0.2,1.6,0.7c0.2-1.1,0.4-2.3,0.4-3.4C35.3,10.6,28.4,3.6,19.9,3.6z M26.3,16c-0.6,0.3-0.8-0.9-1.4-1.1c-0.5-0.2-1.4,0.7-1.6,0.1c-0.6-1.1-0.2-2.4,0.9-3c1.1-0.6,2.4-0.2,3,0.9C27.7,14.1,27.3,15.4,26.3,16z M25.5,19.7c0,2-1.4,5.9-5.8,5.9c-4.4,0-5.8-3.9-5.8-5.9c0-2,2.6,1.1,5.8,1.1c1.5,0,2.9-0.7,3.9-1.2C24.8,19,25.5,18.7,25.5,19.7z M16.1,15.1c-0.3,0.5-1.1-0.3-1.6-0.1c-0.6,0.2-0.8,1.4-1.4,1.1c-1.1-0.6-1.5-1.9-0.9-3c0.6-1.1,1.9-1.5,3-0.9C16.3,12.6,16.7,14,16.1,15.1z"/></svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">2026 &copy; all rights reserved by Killian Chiao</div>
+    </footer>
+
+    <script>
+    (function () {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.querySelectorAll('.reveal-item').forEach(function (el) { el.classList.add('revealed'); });
+            return;
+        }
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+                if (e.isIntersecting) { e.target.classList.add('revealed'); io.unobserve(e.target); }
+            });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal-item').forEach(function (el) { io.observe(el); });
+    })();
+    </script>
 </body>
 </html>

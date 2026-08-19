@@ -123,20 +123,6 @@ u { text-decoration: underline; }
     width: min(61vw, 56rem);
     height: auto;
 }
-.hero-bio {
-    position: absolute;
-    z-index: 1;
-    left: max(1rem, 3.5vw);
-    top: 12%;
-    width: 16rem;
-    max-width: 25vw;
-    color: #9C9C9C;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.55em;
-    font-weight: 300;
-    line-height: 1.5;
-    text-align: left;
-}
 
 /* Quote text */
 .quote-text {
@@ -579,7 +565,6 @@ u { text-decoration: underline; }
     .client-marquee .marquee-set img { height: 2.5rem; }
     .hero-portrait img { width: 76vw; }
     .hero-portrait { margin-top: -8vw; }
-    .hero-bio { display: none; }
     .about-image-childhood .frame { width: 12rem; }
     .about-image-uwc .frame { width: 100%; }
 }

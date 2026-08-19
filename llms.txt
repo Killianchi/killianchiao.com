@@ -1,0 +1,73 @@
+# Killian Chiao
+
+> Founder and product builder. Born on the Arctic Circle, raised between
+> Switzerland and Northern Norway. Work spans behavioural science, product
+> and brand, with clients including Coca-Cola, IKEA, KPMG, T-Mobile,
+> L'Oreal and Mercedes.
+
+This is a plain-text version of https://killianchiao.com intended for AI
+agents and other automated readers. The HTML site carries the same
+information in a designed layout.
+
+## Biography
+
+**Early childhood.** Born in Mo i Rana, Norway, on the Arctic Circle, to a
+Norwegian state conflict mediator mother who worked with terrorists and
+criminals, and a Swiss-French father in Swiss investment banking. The first
+five years were spent in the French-speaking part of Switzerland, between
+Geneva and Lausanne, before moving to Northern Norway.
+
+**Early teenage virtual hotelier.** In the early 2000s, started a first
+online venture selling virtual furniture in Habbo Hotel, one of the world's
+first massively multiplayer games — effectively the first virtual currency
+exchangeable for real money.
+
+**India: United World College.** Selected by the Norwegian National
+Committee of UWC from a highly competitive pool of applicants, and awarded a
+full scholarship sponsored by the Red Cross to attend the Mahindra United
+World College of India. The UWC movement was the birthplace of the
+International Baccalaureate programme.
+
+**Arctic innovation in Svalbard.** Featured in Svalbardposten for
+contributing ideas to sustainable building projects in Longyearbyen, the
+world's northernmost settlement, as Innovation Norway explored how the
+Arctic town could become a testbed for building in extreme conditions.
+
+**Swiss hospitality education.** Featured in Swissinfo's coverage of EHL
+(Ecole hôtelière de Lausanne), the Swiss school for hotel managers.
+
+**Zario: EU-Startups pitch winner.** Zario won the EU-Startups Summit 2023
+Pitch Competition and its €150,000 grand prize. The app helps people build a
+healthier relationship with their phones by making screen-time reduction
+feel like a game rather than a punishment.
+
+## Projects
+
+- [Zario](https://meetzario.com): screen-time reduction app; EU-Startups
+  Summit 2023 pitch winner (€150,000 grand prize)
+- [Shichic](https://www.myshichic.com/)
+- [Studio Hue](https://vimeo.com/studiohue)
+
+## Press
+
+- [Forbes 30 Under 30](https://www.forbes.at/artikel/killian-fjellbakk.html)
+- [GamesBeat — Habbo virtual currency](https://gamesbeat.com/habbo-issues-new-kind-of-currency-for-its-virtual-hotel/)
+- [Sandnesposten — Tidsvandring på fortet](https://www.sa.no/kultur/tidsvandring-pa-fortet/g/1-101-3710558)
+- [Sandnesposten — Trafikkaksjon](https://www.sa.no/lokale-nyheter/lydhor-trafikkaksjon-krever-rundkjoring-na/s/1-101-4805267)
+
+## Links
+
+- LinkedIn: https://www.linkedin.com/in/killianchi
+- GitHub: https://github.com/Killianchi
+- Instagram: https://www.instagram.com/killianchi/
+- Hugging Face: https://huggingface.co/Killianchi
+
+## Pages
+
+- [Home](https://killianchiao.com/)
+- [About](https://killianchiao.com/about.html)
+- [Career](https://killianchiao.com/career.html)
+- [Business](https://killianchiao.com/business.html)
+- [Press & Awards](https://killianchiao.com/awards.html)
+- [Bucket List](https://killianchiao.com/bucketlist.html)
+- [Links](https://killianchiao.com/links.html)

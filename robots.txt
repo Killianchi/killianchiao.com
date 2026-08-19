@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Plain-text/markdown version of this site for AI agents and LLMs
+# https://killianchiao.com/llms.txt
+
+Sitemap: https://killianchiao.com/sitemap.xml

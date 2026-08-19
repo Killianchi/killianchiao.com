@@ -544,3 +544,15 @@ u { text-decoration: underline; }
     .body-text, .subsection-title, .page-title { padding-left: 1.25rem; }
     .habbo-image .frame, .habbo-image.large .frame { width: 100%; height: auto; aspect-ratio: 1/1.2; }
 }
+
+/* Visually hidden — available to screen readers and crawlers, not shown */
+.visually-hidden {
+    position: absolute;
+    width: 1px; height: 1px;
+    margin: -1px; padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}

@@ -104,7 +104,9 @@ Switzerland.
 ## Press
 
 Zario has been featured in Forbes, Entrepreneur, PC World, Macworld, The
-Indian Express and Product Hunt.
+Indian Express and Product Hunt — including coverage of Data Detective, the
+first AI trained on every Google search you've ever made, built to show
+people what their search history says about them.
 
 - [Forbes 30 Under 30 Switzerland 2022](https://forbes.swiss/30-under-30-2022)
 - [Forbes feature](https://www.forbes.at/artikel/killian-fjellbakk.html)

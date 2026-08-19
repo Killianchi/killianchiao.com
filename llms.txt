@@ -100,7 +100,9 @@ Switzerland.
 
 - [Zario](https://meetzario.com): screen-time reduction app; EU-Startups
   Summit 2023 pitch winner (€150,000 grand prize); exited 2025
-- [Studio Hue](https://vimeo.com/studiohue): video and animation agency
+- [Studio Hue](https://vimeo.com/studiohue): video and animation agency;
+  its series "Roaches" was selected for the Cartoon Forum in France
+  (trailer: https://www.youtube.com/watch?v=vWadLqc8V7I)
 - Advisor to [Fabric](https://onfabric.io/) — sign in to consumer AI with
   your digital self — and [NEXT Events](https://nextevents.ch/),
   Switzerland's largest networking and entrepreneurship community

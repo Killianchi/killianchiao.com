@@ -357,6 +357,14 @@ em { font-style: italic; }
 .small-image .frame img { width: 100%; height: auto; filter: grayscale(100%); }
 .placeholder-content { text-align: center; padding: 6rem 2rem; color: var(--stone-500); font-size: 1rem; }
 
+
+/* Video embed */
+.video-embed-wrap { max-width: 40rem; }
+.video-embed {
+    display: block; width: 100%; aspect-ratio: 16 / 9; height: auto;
+    border: 1px solid var(--hairline); border-radius: 1rem; background: #000;
+}
+
 /* ---------- Reveal on scroll ---------- */
 .reveal-item { opacity: 0; transform: translateY(1.5rem); transition: opacity .7s ease-out, transform .7s ease-out; }
 .reveal-item.revealed { opacity: 1; transform: translateY(0); }
